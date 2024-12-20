@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES2018",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "types": ["node", "hardhat"]
+  },
+  "include": [
+    "./hardhat.config.ts",
+    "./scripts/**/*",
+    "./test/**/*",
+    "./ignition/**/*"
+  ]
+}
