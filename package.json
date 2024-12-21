@@ -20,7 +20,6 @@
     "@web3-react/core": "^8.2.3",
     "@web3-react/metamask": "^8.2.4",
     "daisyui": "^4.12.22",
-    "date-fns": "^4.1.0",
     "lucide-react": "^0.468.0",
     "next": "15.0.4",
     "react": "^19.0.0",
